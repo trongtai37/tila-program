@@ -1,11 +1,15 @@
-begin  
+begin
   int a;
-  a = 10;
   int b;
-  b = 1;
-  while (a = b) do
-    begin
-      a = (a - 1) - 2;
-      print a;
-    end
-end EOF
+  int c;
+  int d;
+  c = a + b;
+  d = a - b;
+  print a;
+  print b;  
+  while (a) do
+  begin
+    print a;
+    print b;
+  end;
+end

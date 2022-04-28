@@ -73,6 +73,14 @@ export const scanTokens = (rawString: string) => {
         });
         cursor++;
         continue;
+
+      case TokenType.EXPO:
+        tokens.push({
+          type: TokenType.EXPO,
+          value: character,
+        });
+        cursor++;
+        continue;
     }
 
     if (isWhitespace(character)) {

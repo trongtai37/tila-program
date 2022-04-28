@@ -18,6 +18,7 @@ export enum TokenType {
   STAR = '*',
   SLASH = '/',
   EQUAL = '=',
+  EXPO = '^',
 
   // Literals
   IDENTIFIER = 'identifier',
